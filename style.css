@@ -97,6 +97,7 @@ h1, h2, h3{
 
  .header-content{
      padding-right: 4rem;
+     padding-bottom: 10rem;
  }
 
 .header-content h1{
@@ -124,7 +125,7 @@ h1, h2, h3{
     height: 40px;
     background-color: var(--light-color);
     margin-right: 1rem;
-    border-radius: 3rem;
+    border-radius: 3px;
     box-shadow: 0 0 6px 5px rgba(0, 0, 0, 0.2);
     transition: var(--transition);
 }
@@ -171,7 +172,7 @@ h1, h2, h3{
 .title h2::after{
     position: absolute;
     content: "";
-    top: 120%;
+    top: 100%;
     left: 0;
     width: 70px;
     height: 4px;
